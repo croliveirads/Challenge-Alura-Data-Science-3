@@ -28,10 +28,24 @@ figures/ → Gráficos gerados para ilustrar insights.
 README.md → Documentação do projeto.<br><br>
 
 # 🔍 Análises Realizadas
-<br><br>
+<br>Foi conduzido um estudo com o objetivo de prever a evasão de clientes a partir de variáveis comportamentais, demográficas e de utilização de serviços. Para isso, dois modelos de Machine Learning foram aplicados e avaliados: Regressão Logística e Random Forest.
+
+Na Regressão Logística, investigamos os coeficientes das variáveis, o que permitiu entender a direção e intensidade do impacto de cada fator na probabilidade de evasão. Observamos que variáveis relacionadas à utilização de serviços adicionais, tempo de permanência e tipo de contrato apresentaram relevância significativa, ajudando a identificar perfis com maior risco de saída.
+
+No Random Forest, analisamos a importância das variáveis com base na redução de impureza nas árvores de decisão. O modelo destacou que o tempo de relacionamento com a empresa, o tipo de serviço contratado e a presença ou ausência de suporte técnico foram fatores determinantes para a previsão de evasão.
+
+Comparando o desempenho, o Random Forest apresentou maior acurácia e capacidade de generalização em relação à Regressão Logística, indicando ser o modelo mais adequado para esta base de dados. No entanto, a Regressão Logística se mostrou valiosa para interpretação direta do impacto das variáveis.<br>
 
 # ✅ Principais Conclusões
-<br><br>
+<br>Os resultados obtidos possibilitam não apenas prever quais clientes estão mais propensos a evadir, mas também entender os fatores que influenciam essa decisão. Com base nessas análises, podem ser implementadas ações estratégicas de retenção, como:
+
+Ofertas personalizadas para clientes com pouco tempo de contrato.
+
+Melhoria no suporte técnico para aumentar a satisfação.
+
+Pacotes de serviços ajustados ao perfil de consumo identificado como de maior risco.
+
+Esse estudo reforça a importância da análise preditiva como ferramenta de apoio à tomada de decisão e gestão da base de clientes, combinando previsões assertivas com insights práticos para ações de retenção. <br>
 
 # 🛠️ Tecnologias Utilizadas
 Python 3.x
